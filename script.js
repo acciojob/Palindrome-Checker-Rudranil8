@@ -7,7 +7,10 @@ function palindrome(str){
 		b=b+a[i];
 	}
 	if(a===b){
-		document.write(true);
+		return true;
+	}
+	else{
+		return false;
 	}
 }
 module.exports = palindrome
